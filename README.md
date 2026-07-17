@@ -27,7 +27,7 @@ The public CV is stored at:
 
 `assets/docs/Mabior-Deng-Kuer-CV.pdf`
 
-The homepage, Experience page, CV page, and footer link to this file. To update the CV later, replace that PDF with a new version using the same filename.
+The navigation, homepage, Experience page, Publications page, and footer link directly to this file. To update the CV later, replace the PDF with a new version using the same filename.
 
 ## Profile portrait
 
@@ -45,6 +45,5 @@ The homepage automatically uses the WebP version when supported. To update the p
 - `publications.html` — publications and manuscripts
 - `projects.html` — project portfolio
 - `experience.html` — education, experience, methods, and honors
-- `cv.html` — CV landing page with a link to the PDF
 - `assets/docs/Mabior-Deng-Kuer-CV.pdf` — full curriculum vitae
 - `assets/css/style.css` — colors, typography, and layout
