@@ -1,0 +1,11 @@
+GITHUB UPLOAD
+
+Upload every file in this folder directly to the root of the MabiorAero.github.io repository.
+Do not upload the ZIP file.
+Do not place these files inside another folder.
+
+Required Pages setting:
+Branch: main
+Folder: /(root)
+
+The files index.html, style.css, profile.webp, main.js, favicon.svg, and Mabior-Deng-Kuer-CV.pdf should all be visible on the repository home page.
