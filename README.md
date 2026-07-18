@@ -1,49 +1,10 @@
-# Mabior Deng Kuer Academic Website
+# Mabior Deng Kuer — One-page academic website
 
-A warm, editorial-style static website for Mabior Deng Kuer. The design is intentionally personal and restrained rather than futuristic or template-heavy.
+Upload every file in this folder directly to the root of the `mabiordeng.github.io` repository. The design and navigation are contained inside `index.html`, so there is no separate stylesheet or JavaScript file to go missing.
 
-## Academic identity used on the site
+The older page names are retained only as redirects to sections of the homepage.
 
-- Aviation and Aerospace Engineer and Researcher
-- Transportation Systems · Transport Policy · Safety
-- PhD Student in Aviation and Aerospace Technology (Computational Science and Engineering Track), Purdue University
+Profile links included: LinkedIn, Google Scholar, ORCID, GitHub, email, and CV.
 
-## Preview locally
 
-1. Open the folder.
-2. Double-click `index.html`, or open it with the VS Code Live Server extension.
-
-## Publish on GitHub Pages
-
-1. Create a public repository named `MabiorAero.github.io`.
-2. Upload all files and folders from this website folder to the repository root.
-3. Open **Settings → Pages**.
-4. Select **Deploy from a branch**, branch `main`, folder `/(root)`.
-5. Save. The site will appear at `https://mabioraero.github.io/`.
-
-## CV PDF
-
-The public CV is stored at:
-
-`assets/docs/Mabior-Deng-Kuer-CV.pdf`
-
-The navigation, homepage, Experience page, Publications page, and footer link directly to this file. To update the CV later, replace the PDF with a new version using the same filename.
-
-## Profile portrait
-
-The optimized profile portrait is stored in two formats:
-
-- `assets/images/mabior-deng-kuer-profile.webp` — primary web image
-- `assets/images/mabior-deng-kuer-profile.jpg` — browser and sharing fallback
-
-The homepage automatically uses the WebP version when supported. To update the portrait later, replace both files with new 4:5 images using the same filenames.
-
-## Main files
-
-- `index.html` — homepage
-- `research.html` — research program
-- `publications.html` — publications and manuscripts
-- `projects.html` — project portfolio
-- `experience.html` — education, experience, methods, and honors
-- `assets/docs/Mabior-Deng-Kuer-CV.pdf` — full curriculum vitae
-- `assets/css/style.css` — colors, typography, and layout
+Latest update: added a compact Selected honors block with an official ACRP award-announcement link.
