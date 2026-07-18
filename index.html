@@ -68,7 +68,8 @@
       color: var(--navy);
       text-decoration: none;
       font-family: var(--serif);
-      font-size: 1.17rem;
+      font-size: 1rem;
+      font-weight: 600;
       white-space: nowrap;
     }
     .brand-mark { width: 27px; height: 2px; background: var(--rust); position: relative; }
@@ -85,7 +86,7 @@
     .portrait { width: 190px; margin: 0; }
     .portrait img { display: block; width: 190px; height: 190px; object-fit: cover; object-position: center 34%; border-radius: 8px; border: 1px solid #cfc1b2; box-shadow: 0 14px 32px rgba(52, 42, 33, .12); }
     .portrait figcaption { margin-top: .7rem; color: var(--ink); font-size: 1rem; font-weight: 400; line-height: 1.4; }
-    .eyebrow { margin: 0 0 .8rem; color: var(--rust-dark); font-size: .75rem; font-weight: 750; letter-spacing: .12em; text-transform: uppercase; }
+    .profile-fields { margin: -.15rem 0 1.35rem; color: var(--muted); font-size: 1rem; font-weight: 400; line-height: 1.5; }
     h1, h2, h3 { margin-top: 0; color: var(--navy); font-family: var(--serif); font-weight: 500; line-height: 1.12; letter-spacing: -.018em; }
     h1 { max-width: 800px; margin-bottom: .7rem; font-size: clamp(2.7rem, 6.5vw, 4.65rem); }
     h2 { margin-bottom: 1.2rem; font-size: clamp(2rem, 4.5vw, 3.25rem); }
@@ -195,7 +196,7 @@
 <a class="skip-link" href="#about">Skip to main content</a>
 <header class="site-header">
 <div class="wrap nav">
-<a aria-label="Mabior Deng Kuer home" class="brand" href="#about"><span aria-hidden="true" class="brand-mark"></span>Mabior Deng Kuer</a>
+<a aria-label="Mabior Deng Kuer home" class="brand" href="#about"><span aria-hidden="true" class="brand-mark"></span>MDK</a>
 <button aria-controls="primary-nav" aria-expanded="false" class="menu-button" type="button">Menu</button>
 <nav aria-label="Primary navigation">
 <ul class="nav-links" id="primary-nav">
@@ -217,8 +218,8 @@
 <img alt="Professional portrait of Mabior Deng Kuer" height="720" src="profile.jpg" width="720"/>
 </figure>
 <div>
-<p class="eyebrow">Aviation, Transportation, Aerospace, Policy</p>
 <h1>Mabior Deng Kuer</h1>
+<p class="profile-fields">Aviation · Aerospace · Transportation Systems · Policy · Safety</p>
 <h2 class="about-heading">About Me</h2>
 <div class="about-copy"><p>I am a PhD researcher in Aviation and Aerospace Technology in the Computational Science and Engineering track at Purdue University. My doctoral studies are supported by the Frederick N. Andrews Fellowship.</p><p>My work focuses on aviation safety, transportation systems, transport policy, and the integration of emerging aviation technologies. I use computational, geospatial, and systems methods to address practical aviation and transportation problems.</p><p>I hold a B.E. in Aerospace Engineering and an M.S. in Aviation Engineering, and I have received several academic excellence awards. Before beginning my doctoral studies, I worked in aviation safety, quality, security, and regulatory oversight in South Sudan.</p></div>
 
@@ -456,7 +457,7 @@
 <footer>
 <div class="wrap footer-row">
 <span>© <span id="year"></span> Mabior Deng Kuer</span>
-<span>Aviation, Transportation, Aerospace, Policy</span>
+<span>Aviation · Aerospace · Transportation Systems · Policy · Safety</span>
 </div>
 </footer>
 <script>
