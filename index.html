@@ -122,12 +122,16 @@
     .methods { margin: 1.5rem 0 0; color: var(--muted); font-size: .86rem; }
     .methods strong { color: var(--navy); }
 
-    .work-list { border-top: 1px solid var(--line); }
-    .work-item { display: grid; grid-template-columns: 120px minmax(0, 1fr) 130px; gap: 1.4rem; padding: 1.45rem 0; border-bottom: 1px solid var(--line); align-items: start; }
-    .work-type { color: var(--rust-dark); font-size: .74rem; font-weight: 750; letter-spacing: .07em; text-transform: uppercase; }
-    .work-title { margin: 0 0 .35rem; color: var(--navy); font-family: var(--serif); font-size: 1.15rem; line-height: 1.38; }
-    .work-meta { margin: 0; color: var(--muted); font-size: .86rem; }
-    .work-year { color: var(--muted); font-size: .82rem; text-align: right; }
+    .work-group { margin-top: 2.35rem; }
+    .work-group:first-of-type { margin-top: 1.5rem; }
+    .work-group-title { margin: 0 0 .55rem; padding-bottom: .65rem; border-bottom: 2px solid var(--navy); font-family: var(--sans); font-size: .88rem; font-weight: 700; letter-spacing: .055em; text-transform: uppercase; }
+    .work-list { border-top: 0; }
+    .work-item { display: grid; grid-template-columns: 86px minmax(0, 1fr) 120px; gap: 1.35rem; padding: 1.25rem 0; border-bottom: 1px solid var(--line); align-items: start; }
+    .work-year { color: var(--rust-dark); font-size: .82rem; font-weight: 700; }
+    .work-title { margin: 0 0 .35rem; color: var(--navy); font-family: var(--serif); font-size: 1.12rem; line-height: 1.38; }
+    .work-meta { margin: 0; color: var(--muted); font-size: .87rem; line-height: 1.5; }
+    .work-status { color: var(--muted); font-size: .78rem; text-align: right; }
+    .work-status a { font-weight: 700; }
 
     .background-grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(2.5rem, 7vw, 6rem); }
     .column-title { margin: 0 0 1rem; padding-bottom: .7rem; border-bottom: 2px solid var(--navy); font-family: var(--sans); font-size: .82rem; font-weight: 750; letter-spacing: .08em; text-transform: uppercase; }
@@ -177,7 +181,7 @@
       .portrait img { width: 132px; height: 132px; }
       h1 { font-size: clamp(2.55rem, 13vw, 3.75rem); }
       .work-item { grid-template-columns: 1fr; gap: .3rem; }
-      .work-year { text-align: left; }
+      .work-year, .work-status { text-align: left; }
       .timeline-item { grid-template-columns: 78px minmax(0, 1fr); gap: .75rem; }
       .footer-row { flex-direction: column; }
     }
@@ -260,69 +264,95 @@
 <section class="section" id="work">
 <div class="wrap">
 <div class="section-heading single"><h2>Selected work</h2></div>
-<div class="work-list"><article class="work-item">
-<div class="work-type">Manuscript</div>
+
+<div class="work-group">
+<h3 class="work-group-title">Manuscripts under review</h3>
+<div class="work-list">
+<article class="work-item">
+<div class="work-year">Current</div>
 <div>
 <p class="work-title">Civil Aviation Safety Disparities Across National Air Transport Systems: Evidence from a Global Panel, 1996–2023</p>
-<p class="work-meta">With Jiashu Hu and Caroline K. Marete · under review</p>
+<p class="work-meta"><strong>Mabior Deng Kuer</strong>, Jiashu Hu, and Caroline K. Marete</p>
 </div>
-<div class="work-year">Current</div>
+<div class="work-status">Under review</div>
 </article>
 <article class="work-item">
-<div class="work-type">Manuscript</div>
+<div class="work-year">Current</div>
 <div>
 <p class="work-title">Advanced Air Mobility at Large Hub Airports: Analytical Fragmentation and the Evidence Base for Metropolitan Readiness</p>
-<p class="work-meta">With Caroline K. Marete and Joseph P. Hupy · under review</p>
+<p class="work-meta"><strong>Mabior Deng Kuer</strong>, Caroline K. Marete, and Joseph P. Hupy</p>
 </div>
-<div class="work-year">Current</div>
+<div class="work-status">Under review</div>
 </article>
 <article class="work-item">
-<div class="work-type">Manuscript</div>
-<div>
-<p class="work-title">Cognitive and Human-Automation Challenges in UAS-AAM Integration: A Thematic Review</p>
-<p class="work-meta">With J. Yu, S. Jin, and M. E. Johnson · under review</p>
-</div>
 <div class="work-year">Current</div>
+<div>
+<p class="work-title">Cognitive and Human-Automation Challenges in UAS–AAM Integration: A Thematic Review</p>
+<p class="work-meta">J. Yu, <strong>Mabior Deng Kuer</strong>, S. Jin, and M. E. Johnson</p>
+</div>
+<div class="work-status">Under review</div>
+</article>
+</div>
+</div>
+
+<div class="work-group">
+<h3 class="work-group-title">Peer-reviewed publication</h3>
+<div class="work-list">
+<article class="work-item">
+<div class="work-year">2025</div>
+<div>
+<p class="work-title">Aviation Knowledge and Sustainability: Epistemological Gaps in Decarbonization Across the Global North and South</p>
+<p class="work-meta"><strong>Mabior Deng Kuer</strong> and Caroline K. Marete · 2025 ASEE Annual Conference &amp; Exposition</p>
+</div>
+<div class="work-status"><a href="https://doi.org/10.18260/1-2--55294" rel="noopener" target="_blank">DOI</a></div>
+</article>
+</div>
+</div>
+
+<div class="work-group">
+<h3 class="work-group-title">Reports and presentations</h3>
+<div class="work-list">
+<article class="work-item">
+<div class="work-year">2025</div>
+<div>
+<p class="work-title">Navigating the Perils: Operational Safety in Conflict Zones</p>
+<p class="work-meta"><strong>Mabior Deng Kuer</strong> and Caroline K. Marete · Purdue Road School Conference &amp; Expo, West Lafayette</p>
+</div>
+<div class="work-status">Presentation</div>
 </article>
 <article class="work-item">
-<div class="work-type">M.S. dissertation</div>
+<div class="work-year">2021</div>
 <div>
-<p class="work-title">The Implementation of Total Productive Maintenance (TPM) within the East Africa Aviation Maintenance Repair and Overhaul (MRO) Industry</p>
+<p class="work-title">Information Paper on ICAO’s High-Level Conference on COVID-19 Annex 19-Related Outcomes</p>
+<p class="work-meta"><strong>Mabior Deng Kuer</strong>, M. Safi, and A. Kochovski · Presented to the ICAO Safety Management Panel (SMP/5)</p>
+</div>
+<div class="work-status">ICAO report</div>
+</article>
+</div>
+</div>
+
+<div class="work-group">
+<h3 class="work-group-title">Theses</h3>
+<div class="work-list">
+<article class="work-item">
+<div class="work-year">2020</div>
+<div>
+<p class="work-title">The Implementation of Total Productive Maintenance within the East African Aviation Maintenance, Repair, and Overhaul Industry</p>
 <p class="work-meta">University of South Wales</p>
 </div>
-<div class="work-year">2020</div>
-</article><article class="work-item">
-<div class="work-type">B.E. dissertation</div>
+<div class="work-status">M.S. dissertation</div>
+</article>
+<article class="work-item">
+<div class="work-year">2016</div>
 <div>
 <p class="work-title">Finite Element Simulation of the Stretch-Forming of Aircraft Skins</p>
 <p class="work-meta">Shenyang Aerospace University</p>
 </div>
-<div class="work-year">2016</div>
-</article><article class="work-item">
-<div class="work-type">Peer reviewed</div>
-<div>
-<p class="work-title">Aviation Knowledge and Sustainability: Epistemological Gaps in Decarbonization Across the Global North and South</p>
-<p class="work-meta">2025 ASEE Annual Conference &amp; Exposition · <a href="https://doi.org/10.18260/1-2--55294" rel="noopener" target="_blank">DOI</a></p>
-</div>
-<div class="work-year">2025</div>
-</article>
-<article class="work-item">
-<div class="work-type">Presentation</div>
-<div>
-<p class="work-title">Navigating the Perils: Operational Safety in Conflict Zones</p>
-<p class="work-meta">Purdue Road School Conference &amp; Expo, West Lafayette</p>
-</div>
-<div class="work-year">2025</div>
-</article>
-<article class="work-item">
-<div class="work-type">ICAO report</div>
-<div>
-<p class="work-title">Information Paper on ICAO’s High-Level Conference on COVID-19 Annex 19 Related Outcomes</p>
-<p class="work-meta">Presented to the ICAO Safety Management Panel (SMP/5)</p>
-</div>
-<div class="work-year">2021</div>
+<div class="work-status">B.E. dissertation</div>
 </article>
 </div>
+</div>
+
 </div>
 </section>
 <section class="section alt" id="background">
