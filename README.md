@@ -8,3 +8,6 @@ Profile links included: LinkedIn, Google Scholar, ORCID, GitHub, email, and CV.
 
 
 Latest update: added a compact Selected honors block with an official ACRP award-announcement link.
+
+
+Latest content update: added the civil aviation safety manuscript under review, MSc and BEng dissertation titles, aeronautical engineering tools, and the corrected ACRP award link.
