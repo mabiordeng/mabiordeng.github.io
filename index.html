@@ -4,11 +4,11 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
-<title>Mabior Deng Kuer | Aviation and Aerospace Engineer and Researcher</title>
-<meta content="Mabior Deng Kuer is an aviation and aerospace engineer and researcher working across transportation systems, transport policy, aviation safety, Advanced Air Mobility, GIS, and computational engineering methods." name="description"/>
+<title>Mabior Deng Kuer | PhD Student at Purdue University</title>
+<meta content="Mabior Deng Kuer is a Purdue University PhD researcher in Aviation and Aerospace Technology working across Advanced Air Mobility, airport systems, transport policy, aviation safety, GIS, and computational methods." name="description"/>
 <meta content="#f7f2ea" name="theme-color"/>
 <meta content="website" property="og:type"/>
-<meta content="Mabior Deng Kuer | Aviation and Aerospace Engineer and Researcher" property="og:title"/>
+<meta content="Mabior Deng Kuer | PhD Student at Purdue University" property="og:title"/>
 <meta content="Research in transportation systems, transport policy, aviation safety, Advanced Air Mobility, and GIS." property="og:description"/>
 <meta content="https://mabiordeng.github.io/profile.jpg" property="og:image"/>
 <link href="https://mabiordeng.github.io/" rel="canonical"/>
@@ -25,8 +25,8 @@
       --line: #d9cec1;
       --soft-line: rgba(75, 61, 48, .12);
       --max: 1080px;
-      --sans: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
-      --serif: Georgia, "Times New Roman", serif;
+      --sans: "Times New Roman", Times, serif;
+      --serif: "Times New Roman", Times, serif;
     }
     * { box-sizing: border-box; }
     html { scroll-behavior: smooth; }
@@ -34,8 +34,8 @@
       margin: 0;
       color: var(--ink);
       background: var(--paper);
-      font-family: var(--sans);
-      font-size: 16px;
+      font-family: "Times New Roman", Times, serif;
+      font-size: 12pt;
       line-height: 1.65;
       text-rendering: optimizeLegibility;
     }
@@ -84,15 +84,17 @@
     .hero-grid { display: grid; grid-template-columns: 215px minmax(0, 1fr); gap: clamp(2rem, 5vw, 4.5rem); align-items: start; }
     .portrait { width: 190px; margin: 0; }
     .portrait img { display: block; width: 190px; height: 190px; object-fit: cover; object-position: center 34%; border-radius: 8px; border: 1px solid #cfc1b2; box-shadow: 0 14px 32px rgba(52, 42, 33, .12); }
-    .portrait figcaption { margin-top: .75rem; color: var(--muted); font-size: .78rem; line-height: 1.45; }
+    .portrait figcaption { margin-top: .7rem; color: var(--ink); font-size: 1rem; font-weight: 400; line-height: 1.4; }
     .eyebrow { margin: 0 0 .8rem; color: var(--rust-dark); font-size: .75rem; font-weight: 750; letter-spacing: .12em; text-transform: uppercase; }
     h1, h2, h3 { margin-top: 0; color: var(--navy); font-family: var(--serif); font-weight: 500; line-height: 1.12; letter-spacing: -.018em; }
-    h1 { max-width: 800px; margin-bottom: .7rem; font-size: clamp(2.8rem, 7vw, 5rem); }
+    h1 { max-width: 800px; margin-bottom: .7rem; font-size: clamp(2.7rem, 6.5vw, 4.65rem); }
     h2 { margin-bottom: 1.2rem; font-size: clamp(2rem, 4.5vw, 3.25rem); }
     h3 { margin-bottom: .4rem; font-size: 1.28rem; }
     .role { margin: 0 0 1.25rem; color: var(--rust-dark); font-size: 1.05rem; font-weight: 650; }
-    .intro { max-width: 720px; margin: 0; color: #4d5a60; font-family: var(--serif); font-size: clamp(1.16rem, 2.3vw, 1.42rem); line-height: 1.55; }
-    .degree { max-width: 720px; margin: 1rem 0 0; color: var(--muted); font-size: .94rem; }
+    .about-heading { margin: 1.35rem 0 .8rem; font-family: var(--sans); font-size: 1.22rem; font-weight: 720; letter-spacing: 0; }
+    .about-copy { max-width: 760px; color: #4d5a60; }
+    .about-copy p { margin: 0 0 1rem; }
+    .about-copy p:last-child { margin-bottom: 0; }
     .quick-links { display: flex; flex-wrap: wrap; gap: .65rem 1.2rem; margin-top: 1.5rem; }
     .quick-links a { font-size: .9rem; font-weight: 650; text-decoration-thickness: 1px; }
 
@@ -105,6 +107,13 @@
     .section-heading.single h2 { margin: 0; }
 
     .section-intro { max-width: 720px; margin: .6rem 0 0; color: var(--muted); }
+
+
+    .news-list { border-top: 1px solid var(--line); }
+    .news-item { display: grid; grid-template-columns: 120px minmax(0, 1fr); gap: 1.4rem; padding: 1.35rem 0; border-bottom: 1px solid var(--line); align-items: start; }
+    .news-date { color: var(--rust-dark); font-size: .78rem; font-weight: 700; }
+    .news-item h3 { margin: 0 0 .3rem; font-family: var(--sans); font-size: 1rem; font-weight: 700; letter-spacing: 0; }
+    .news-item p { margin: 0; color: var(--muted); font-size: .9rem; }
 
     .research-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); }
     .research-card { min-height: 245px; padding: 1.6rem; background: var(--paper-light); }
@@ -152,9 +161,11 @@
       .hero-grid { grid-template-columns: 160px minmax(0, 1fr); gap: 1.7rem; }
       .portrait, .portrait img { width: 150px; height: 150px; }
       .section-heading { grid-template-columns: 1fr; gap: .35rem; }
-      .research-grid { grid-template-columns: 1fr; }
+  
+    .research-grid { grid-template-columns: 1fr; }
       .research-card { min-height: 0; }
       .background-grid, .contact-grid { grid-template-columns: 1fr; }
+      .news-item { grid-template-columns: 1fr; gap: .25rem; }
       .contact-links { justify-content: flex-start; }
     }
     @media (max-width: 580px) {
@@ -164,7 +175,6 @@
       .hero-grid { grid-template-columns: 1fr; }
       .portrait { width: 132px; }
       .portrait img { width: 132px; height: 132px; }
-      .portrait figcaption { display: none; }
       h1 { font-size: clamp(2.55rem, 13vw, 3.75rem); }
       .work-item { grid-template-columns: 1fr; gap: .3rem; }
       .work-year { text-align: left; }
@@ -174,7 +184,7 @@
     @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
   </style>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Person","name":"Mabior Deng Kuer","url":"https://mabiordeng.github.io/","image":"https://mabiordeng.github.io/profile.jpg","email":"mailto:mmabior@purdue.edu","affiliation":{"@type":"CollegeOrUniversity","name":"Purdue University"},"jobTitle":"Aviation and Aerospace Engineer and Researcher","sameAs":["https://orcid.org/0009-0005-6542-4896","https://www.linkedin.com/in/engmabior","https://scholar.google.com/citations?user=buZhsjQAAAAJ&hl=en","https://github.com/mabiordeng"]}
+  {"@context":"https://schema.org","@type":"Person","name":"Mabior Deng Kuer","url":"https://mabiordeng.github.io/","image":"https://mabiordeng.github.io/profile.jpg","email":"mailto:mmabior@purdue.edu","affiliation":{"@type":"CollegeOrUniversity","name":"Purdue University"},"jobTitle":"PhD Student in Aviation and Aerospace Technology","sameAs":["https://orcid.org/0009-0005-6542-4896","https://www.linkedin.com/in/engmabior","https://scholar.google.com/citations?user=buZhsjQAAAAJ&hl=en","https://github.com/mabiordeng"]}
   </script>
 </head>
 <body>
@@ -185,13 +195,14 @@
 <button aria-controls="primary-nav" aria-expanded="false" class="menu-button" type="button">Menu</button>
 <nav aria-label="Primary navigation">
 <ul class="nav-links" id="primary-nav">
-<li><a href="#about">About</a></li>
-<li><a href="#research">Research</a></li>
-<li><a href="#work">Selected work</a></li>
-<li><a href="#background">Background</a></li>
-<li><a href="#contact">Contact</a></li>
-<li><a class="cv-link" href="Mabior-Deng-Kuer-CV.pdf" rel="noopener" target="_blank">CV</a></li>
-</ul>
+
+
+
+
+
+
+
+<li><a href="#about">About</a></li><li><a href="#research">Research</a></li><li><a href="#work">Selected work</a></li><li><a href="#background">Background</a></li><li><a href="#news">News</a></li><li><a href="#contact">Contact</a></li><li><a class="cv-link" href="Mabior-Deng-Kuer-CV.pdf" rel="noopener" target="_blank">CV</a></li></ul>
 </nav>
 </div>
 </header>
@@ -200,14 +211,13 @@
 <div class="wrap hero-grid">
 <figure class="portrait">
 <img alt="Professional portrait of Mabior Deng Kuer" height="720" src="profile.jpg" width="720"/>
-<figcaption>Purdue University<br/>West Lafayette, Indiana</figcaption>
+<figcaption>PhD Student at Purdue University, WL</figcaption>
 </figure>
 <div>
-<p class="eyebrow">Aviation · Transportation · Safety</p>
+<p class="eyebrow">Aviation, Transportation, Aerospace, Policy</p>
 <h1>Mabior Deng Kuer</h1>
-<p class="role">Aviation and Aerospace Engineer and Researcher</p>
-<p class="intro">I study how aviation technologies, airports, institutions, and public policy interact, with a focus on safe integration, transportation-system value, and practical decision support.</p>
-<p class="degree">PhD student in Aviation and Aerospace Technology, Computational Science and Engineering Track, at Purdue University.</p>
+<h2 class="about-heading">About Me</h2>
+<div class="about-copy"><p>I am a PhD researcher in Aviation and Aerospace Technology in the Computational Science and Engineering track at Purdue University. My doctoral studies are supported by the Frederick N. Andrews Fellowship.</p><p>My work focuses on aviation safety, transportation systems, transport policy, and the integration of emerging aviation technologies. I use computational, geospatial, and systems methods to address practical aviation and transportation problems.</p><p>I hold a B.E. in Aerospace Engineering and an M.S. in Aviation Engineering, and I have received several academic excellence awards. Before beginning my doctoral studies, I worked in aviation safety, quality, security, and regulatory oversight in South Sudan.</p></div>
 <div class="quick-links">
 <a href="#research">Research</a>
 <a href="#work">Selected work</a>
@@ -220,14 +230,12 @@
 </div>
 </div>
 </section>
+
 <section class="section alt" id="research">
 <div class="wrap">
-<div class="section-heading">
-<div class="section-label">Research</div>
-<div>
-<h2>Questions that connect engineering with public decisions.</h2>
-<p class="section-intro">My work treats aviation as both a technical system and a public infrastructure system. Three related research areas organize the current portfolio.</p>
-</div>
+<div class="section-heading single">
+<h2>Research</h2>
+<p class="section-intro">My research examines aviation as both a technical system and public infrastructure. My current work focuses on three related areas:</p>
 </div>
 <div class="research-grid">
 <article class="research-card">
@@ -277,14 +285,14 @@
 <div class="work-year">Current</div>
 </article>
 <article class="work-item">
-<div class="work-type">MSc dissertation</div>
+<div class="work-type">M.S. dissertation</div>
 <div>
 <p class="work-title">The Implementation of Total Productive Maintenance (TPM) within the East Africa Aviation Maintenance Repair and Overhaul (MRO) Industry</p>
 <p class="work-meta">University of South Wales</p>
 </div>
 <div class="work-year">2020</div>
 </article><article class="work-item">
-<div class="work-type">BEng dissertation</div>
+<div class="work-type">B.E. dissertation</div>
 <div>
 <p class="work-title">Finite Element Simulation of the Stretch-Forming of Aircraft Skins</p>
 <p class="work-meta">Shenyang Aerospace University</p>
@@ -329,11 +337,11 @@
 </div>
 <div class="timeline-item">
 <div class="timeline-date">2020</div>
-<div><h3>MSc, Aviation Engineering and Management</h3><p>University of South Wales · Distinction</p></div>
+<div><h3>M.S., Aviation Engineering and Management</h3><p>University of South Wales · Distinction</p></div>
 </div>
 <div class="timeline-item">
 <div class="timeline-date">2016</div>
-<div><h3>BEng, Aeronautical Engineering</h3><p>Shenyang Aerospace University</p></div>
+<div><h3>B.E., Aeronautical Engineering</h3><p>Shenyang Aerospace University</p></div>
 </div>
 <div class="detail-block">
 <h3>Selected honors</h3>
@@ -360,7 +368,7 @@
 </div>
 <div class="timeline-item">
 <div class="timeline-date">2022–2024</div>
-<div><h3>Quality, Safety &amp; Security Manager</h3><p>Mission Aviation Fellowship, South Sudan · quality assurance, safety, security, auditing, and continuous improvement</p></div>
+<div><h3>Quality &amp; Safety Manager</h3><p>Mission Aviation Fellowship, South Sudan · quality assurance, safety, auditing, and continuous improvement</p></div>
 </div>
 <div class="timeline-item">
 <div class="timeline-date">2021</div>
@@ -378,12 +386,25 @@
 </div>
 </div>
 </section>
-<section class="contact" id="contact">
+<section class="section" id="news">
+<div class="wrap">
+<div class="section-heading single"><h2>News</h2></div>
+<div class="news-list">
+<article class="news-item">
+<time class="news-date" datetime="2026-05">May 2026</time>
+<div>
+<h3>Submitted an application to the TRB Airport Cooperative Research Program Graduate Research Awards</h3>
+<p>The application supports doctoral research related to airport systems, aviation safety, and transportation planning.</p>
+</div>
+</article>
+</div>
+</div>
+</section><section class="contact" id="contact">
 <div class="wrap contact-grid">
 <div>
 <p class="eyebrow" style="color:#f2c5ad">Contact</p>
 <h2>Research, collaboration, and professional conversations.</h2>
-<p>The most direct way to reach me is by email.</p>
+<p>The most direct way to reach me is by email. My schedule can be demanding, so my response may take a little time, but I make every effort to reply to all messages.</p>
 </div>
 <div class="contact-links">
 <a href="mailto:mmabior@purdue.edu">mmabior@purdue.edu</a>
@@ -399,7 +420,7 @@
 <footer>
 <div class="wrap footer-row">
 <span>© <span id="year"></span> Mabior Deng Kuer</span>
-<span>Aviation · Transportation Systems · Policy · Safety</span>
+<span>Aviation, Transportation, Aerospace, Policy</span>
 </div>
 </footer>
 <script>

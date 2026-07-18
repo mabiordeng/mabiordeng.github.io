@@ -11,3 +11,10 @@ Latest update: added a compact Selected honors block with an official ACRP award
 
 
 Latest content update: added the civil aviation safety manuscript under review, MSc and BEng dissertation titles, aeronautical engineering tools, and the corrected ACRP award link.
+
+
+## News
+The homepage includes a News section for dated academic and professional updates.
+
+
+Latest revision: News moved to the final content section before Contact; About Me shortened and updated with fellowship funding and degree summary.
