@@ -1,11 +1,11 @@
-GITHUB UPLOAD
+RESTORE THE WEBSITE
 
-Upload every file in this folder directly to the root of the MabiorAero.github.io repository.
-Do not upload the ZIP file.
-Do not place these files inside another folder.
+1. Extract this ZIP.
+2. Open the extracted folder.
+3. In the GitHub repository mabiordeng/mabiordeng.github.io, replace the existing site files with ALL files from this folder.
+4. Keep the files at repository root.
+5. Commit the upload.
+6. In Settings > Pages, publish from main / (root).
+7. After deployment, open https://mabiordeng.github.io/ and hard-refresh with Ctrl+F5.
 
-Required Pages setting:
-Branch: main
-Folder: /(root)
-
-The files index.html, style.css, profile.webp, main.js, favicon.svg, and Mabior-Deng-Kuer-CV.pdf should all be visible on the repository home page.
+Do not upload the ZIP itself.

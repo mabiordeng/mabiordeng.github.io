@@ -1,9 +1,9 @@
 {
-  "name": "Mabior Deng Kuer Mabior",
-  "short_name": "Mabior Kuer",
+  "name": "Mabior Deng Kuer",
+  "short_name": "MDK",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#0b1f33",
+  "background_color": "#f7f2ea",
+  "theme_color": "#f7f2ea",
   "icons": []
 }
