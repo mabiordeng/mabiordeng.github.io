@@ -1,0 +1,18 @@
+Photo update audit - 2026-08-07
+
+1. Homepage photograph source:
+   assets/images/profile.jpg
+   Exact uploaded file: 20260803_140125.jpg
+   Dimensions: 1536 x 2048 pixels (3:4 portrait)
+
+2. Homepage layout changes:
+   - Hero changed from two-column to single-column.
+   - Introductory text centered.
+   - Photograph centered horizontally below the intro.
+   - Desktop photograph width increased from 500 px to 680 px.
+   - Tablet photograph width up to 600 px.
+   - Mobile photograph width up to 430 px / 92vw.
+   - Original 3:4 aspect ratio retained to avoid unwanted cropping.
+
+3. Cache busting:
+   index.html references profile.jpg?v=20260807-2 to reduce stale-browser caching.
