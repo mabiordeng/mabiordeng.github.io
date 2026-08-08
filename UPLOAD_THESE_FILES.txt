@@ -1,0 +1,14 @@
+GITHUB ROOT FIX
+
+Your current repository keeps style.css, main.js, profile.jpg and favicon.svg in the repository root.
+This package has been adjusted to match that exact structure.
+
+Upload the CONTENTS of this folder directly to the root of mabiordeng.github.io and replace files when asked.
+Do not upload this folder as a subfolder.
+
+Critical references now used:
+- style.css
+- main.js
+- profile.jpg
+- profile-placeholder.svg
+- favicon.svg
