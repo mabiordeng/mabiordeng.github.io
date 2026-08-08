@@ -1,22 +1,18 @@
-AUDIT SUMMARY
+Mabior Deng website package audit
+Updated: 2026-08-07
 
-Baseline checked:
-- Prior warm single-page homepage: index(28).html from the retained website version.
+This package is based on the previously audited complete website.
+Only the visible Research section in index.html was changed in this revision:
+- The three research cards and separate methods line were condensed into one concise paragraph.
+- The paragraph retains the same three research themes and the core methods previously listed.
 
-Homepage differences from that baseline are limited to:
-- Larger portrait grid/frame dimensions.
-- Centered portrait crop and 3:4 frame ratio for the new 1536 x 2048 photograph.
-- New photo dimensions in the <img> element.
-- One new July 30, 2026 News entry for successful completion of the Preliminary Examination and advancement to Ph.D. candidacy.
+All other website content, layout, navigation, colors, typography, profile photograph, News section, contact treatment, CV, and supporting files remain unchanged from the previous audited package.
 
-Security checks:
-- No mailto: links in any HTML file.
-- No unobfuscated mmabior@purdue.edu string in any HTML file.
-- Contact email is displayed as mmabior[at]purdue[dot]edu.
+Email privacy check:
+- No mailto: links in HTML.
+- No plain mmabior@purdue.edu address in HTML.
+- Website contact display remains mmabior[at]purdue[dot]edu.
 
-Integrity checks:
-- All local HTML links, image sources, object data references, and favicon references resolve to files included in the package.
-- profile.jpg is byte-for-byte identical to the uploaded photograph.
-- profile.webp is generated from the same photograph.
-- style.css mirrors the homepage's inline CSS.
-- main.js mirrors the homepage's inline JavaScript.
+Revision note: Removed the large-hub limitation from the concise Research paragraph so the public-facing research description reflects broader AAM and emerging-aviation integration interests. No other website content or styling was changed.
+
+Research wording refinement (2026-08-08): Specific software/method names removed from the homepage research summary; methods are described broadly as mathematical and statistical modeling, geospatial analysis, simulation, and evidence synthesis. No other site content or styling was changed in this revision.
