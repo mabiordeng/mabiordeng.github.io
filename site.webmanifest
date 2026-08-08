@@ -1,1 +1,9 @@
-{"name":"Mabior Deng Kuer","short_name":"Mabior Deng Kuer","start_url":"./index.html","display":"standalone","background_color":"#f7f2ea","theme_color":"#f7f2ea","icons":[{"src":"favicon.svg","sizes":"any","type":"image/svg+xml"}]}
+{
+  "name": "Mabior Deng Kuer Mabior",
+  "short_name": "Mabior Kuer",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0b1f33",
+  "icons": []
+}
