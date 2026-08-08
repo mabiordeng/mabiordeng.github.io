@@ -1,18 +1,23 @@
-Mabior Deng website package audit
-Updated: 2026-08-07
+AUDIT - Mabior Deng personal website
 
-This package is based on the previously audited complete website.
-Only the visible Research section in index.html was changed in this revision:
-- The three research cards and separate methods line were condensed into one concise paragraph.
-- The paragraph retains the same three research themes and the core methods previously listed.
+This package retains the previously audited website and makes only one new visual adjustment:
+- Reduced vertical whitespace between major page sections.
 
-All other website content, layout, navigation, colors, typography, profile photograph, News section, contact treatment, CV, and supporting files remain unchanged from the previous audited package.
+Current requested content changes retained:
+- New Purdue/Neil Armstrong profile photograph.
+- Larger centered portrait crop within the original left-side layout.
+- July 30, 2026 Ph.D. candidacy / Preliminary Examination news update.
+- Research section condensed into a concise paragraph with broad methods language.
+
+Spacing adjustment in this version:
+- Hero vertical padding reduced.
+- Standard section vertical padding reduced.
+- Contact section vertical padding reduced.
+- Mobile hero top padding reduced slightly.
+
+No changes were made to section content, colors, typography, navigation, publications, experience, honors, photo, contact wording, or site structure.
 
 Email privacy check:
-- No mailto: links in HTML.
+- No mailto links in HTML.
 - No plain mmabior@purdue.edu address in HTML.
-- Website contact display remains mmabior[at]purdue[dot]edu.
-
-Revision note: Removed the large-hub limitation from the concise Research paragraph so the public-facing research description reflects broader AAM and emerging-aviation integration interests. No other website content or styling was changed.
-
-Research wording refinement (2026-08-08): Specific software/method names removed from the homepage research summary; methods are described broadly as mathematical and statistical modeling, geospatial analysis, simulation, and evidence synthesis. No other site content or styling was changed in this revision.
+- Public email is shown in obfuscated form.

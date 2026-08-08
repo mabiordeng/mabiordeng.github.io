@@ -67,7 +67,7 @@
     .menu-button { display: none; border: 1px solid var(--line); border-radius: 8px; padding: .45rem .65rem; background: transparent; color: var(--navy); font: inherit; }
 
     section { scroll-margin-top: 88px; }
-    .hero { padding: clamp(2.8rem, 6vw, 4.4rem) 0 clamp(3rem, 6vw, 4.6rem); }
+    .hero { padding: clamp(2.3rem, 4vw, 3.3rem) 0 clamp(2.3rem, 4vw, 3.3rem); }
     .hero-grid { display: grid; grid-template-columns: 290px minmax(0, 1fr); gap: clamp(2rem, 5vw, 4.5rem); align-items: start; }
     .portrait { width: 270px; margin: 0 auto; }
     .portrait img { display: block; width: 270px; height: 360px; object-fit: cover; object-position: center center; border-radius: 8px; border: 1px solid #cfc1b2; box-shadow: 0 14px 32px rgba(52, 42, 33, .12); }
@@ -85,7 +85,7 @@
     .quick-links { display: flex; flex-wrap: wrap; gap: .65rem 1.2rem; margin-top: 1.5rem; }
     .quick-links a { font-size: .9rem; font-weight: 650; text-decoration-thickness: 1px; }
 
-    .section { padding: clamp(3rem, 6vw, 4.6rem) 0; border-top: 1px solid var(--soft-line); }
+    .section { padding: clamp(2rem, 4vw, 3rem) 0; border-top: 1px solid var(--soft-line); }
     .section.alt { background: rgba(255, 253, 249, .72); }
     .section-heading { display: grid; grid-template-columns: 170px minmax(0, 1fr); gap: 2rem; margin-bottom: 2.2rem; }
     .section-label { padding-top: .35rem; color: var(--rust-dark); font-size: .76rem; font-weight: 750; letter-spacing: .1em; text-transform: uppercase; }
@@ -135,7 +135,7 @@
     .honors-list strong { display: block; color: var(--navy); font-size: .9rem; }
     .honors-list a { font-weight: 650; }
 
-    .contact { padding: clamp(3rem, 6vw, 4.6rem) 0; background: var(--navy); color: #e7eeef; }
+    .contact { padding: clamp(2.2rem, 4vw, 3.2rem) 0; background: var(--navy); color: #e7eeef; }
     .contact-grid { display: grid; grid-template-columns: 1.2fr .8fr; gap: 3rem; align-items: end; }
     .contact h2 { margin-bottom: .7rem; color: #fff9f1; }
     .contact p { max-width: 650px; margin: 0; color: #cad5d7; }
@@ -164,7 +164,7 @@
     @media (max-width: 580px) {
       .wrap { width: min(calc(100% - 1.5rem), var(--max)); }
       .brand { font-size: 1.02rem; }
-      .hero { padding-top: 2.6rem; }
+      .hero { padding-top: 2.2rem; }
       .hero-grid { grid-template-columns: 1fr; }
       .portrait { width: 230px; margin-inline: auto; }
       .portrait img { width: 230px; height: 307px; }
