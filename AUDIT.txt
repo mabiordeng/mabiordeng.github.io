@@ -1,0 +1,22 @@
+AUDIT SUMMARY
+
+Baseline checked:
+- Prior warm single-page homepage: index(28).html from the retained website version.
+
+Homepage differences from that baseline are limited to:
+- Larger portrait grid/frame dimensions.
+- Centered portrait crop and 3:4 frame ratio for the new 1536 x 2048 photograph.
+- New photo dimensions in the <img> element.
+- One new July 30, 2026 News entry for successful completion of the Preliminary Examination and advancement to Ph.D. candidacy.
+
+Security checks:
+- No mailto: links in any HTML file.
+- No unobfuscated mmabior@purdue.edu string in any HTML file.
+- Contact email is displayed as mmabior[at]purdue[dot]edu.
+
+Integrity checks:
+- All local HTML links, image sources, object data references, and favicon references resolve to files included in the package.
+- profile.jpg is byte-for-byte identical to the uploaded photograph.
+- profile.webp is generated from the same photograph.
+- style.css mirrors the homepage's inline CSS.
+- main.js mirrors the homepage's inline JavaScript.

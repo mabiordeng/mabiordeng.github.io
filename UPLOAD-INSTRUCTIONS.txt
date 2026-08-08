@@ -1,11 +1,12 @@
-RESTORE THE WEBSITE
+FULL WEBSITE RESTORE
 
-1. Extract this ZIP.
+1. Download and extract the ZIP.
 2. Open the extracted folder.
-3. In the GitHub repository mabiordeng/mabiordeng.github.io, replace the existing site files with ALL files from this folder.
-4. Keep the files at repository root.
-5. Commit the upload.
-6. In Settings > Pages, publish from main / (root).
-7. After deployment, open https://mabiordeng.github.io/ and hard-refresh with Ctrl+F5.
+3. In GitHub, open: mabiordeng/mabiordeng.github.io
+4. Replace the existing repository files with ALL files from this folder.
+5. Keep every file at the repository root. Do not create an extra website folder.
+6. Commit the changes to main.
+7. GitHub Pages should publish from main / (root).
+8. After deployment, open https://mabiordeng.github.io/ and press Ctrl+F5 once.
 
-Do not upload the ZIP itself.
+The homepage intentionally keeps its CSS and JavaScript inline, exactly as in the restored prior design. Root copies style.css and main.js are included only for compatibility with the repository's previous file set.
