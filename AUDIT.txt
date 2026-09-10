@@ -1,23 +1,8 @@
-AUDIT - Mabior Deng personal website
+Website update audit
+Date: 2026-09-10
 
-This package retains the previously audited website and makes only one new visual adjustment:
-- Reduced vertical whitespace between major page sections.
-
-Current requested content changes retained:
-- New Purdue/Neil Armstrong profile photograph.
-- Larger centered portrait crop within the original left-side layout.
-- July 30, 2026 Ph.D. candidacy / Preliminary Examination news update.
-- Research section condensed into a concise paragraph with broad methods language.
-
-Spacing adjustment in this version:
-- Hero vertical padding reduced.
-- Standard section vertical padding reduced.
-- Contact section vertical padding reduced.
-- Mobile hero top padding reduced slightly.
-
-No changes were made to section content, colors, typography, navigation, publications, experience, honors, photo, contact wording, or site structure.
-
-Email privacy check:
-- No mailto links in HTML.
-- No plain mmabior@purdue.edu address in HTML.
-- Public email is shown in obfuscated form.
+Changes from v5 only:
+1. Added a September 2026 News item noting selection to the Purdue University Senate Student Affairs Committee as a Purdue Graduate Student Government representative, with the official Purdue committee link.
+2. Standardized website hyperlinks to the site's red accent. On the dark Contact section, a lighter red is used for readable contrast.
+3. No changes to website layout, spacing, typography, research wording, photograph, publications content/status, education, experience, or existing News items.
+4. Email remains obfuscated in HTML; no mailto link was added.

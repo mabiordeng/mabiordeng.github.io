@@ -25,8 +25,8 @@
       line-height: 1.58;
       text-rendering: optimizeLegibility;
     }
-    a { color: var(--rust-dark); text-underline-offset: 3px; }
-    a:hover { color: var(--navy); }
+    a { color: #b3261e; text-underline-offset: 3px; }
+    a:hover { color: #7f1d1d; }
     img { max-width: 100%; }
     .wrap { width: min(calc(100% - 2.5rem), var(--max)); margin-inline: auto; }
     .skip-link { position: absolute; left: -9999px; top: 0; }
@@ -51,7 +51,7 @@
       display: inline-flex;
       align-items: center;
       gap: .7rem;
-      color: var(--navy);
+      color: #b3261e;
       text-decoration: none;
       font-family: var(--serif);
       font-size: .95rem;
@@ -61,9 +61,9 @@
     .brand-mark { width: 27px; height: 2px; background: var(--rust); position: relative; }
     .brand-mark::after { content: ""; position: absolute; right: 0; top: -3px; width: 8px; height: 8px; border-radius: 50%; background: var(--rust); }
     .nav-links { display: flex; align-items: center; gap: 1.25rem; list-style: none; margin: 0; padding: 0; }
-    .nav-links a { color: var(--muted); text-decoration: none; font-size: .88rem; }
-    .nav-links a:hover, .nav-links a.active { color: var(--navy); }
-    .nav-links .cv-link { color: var(--rust-dark); font-weight: 650; }
+    .nav-links a { color: #b3261e; text-decoration: none; font-size: .88rem; }
+    .nav-links a:hover, .nav-links a.active { color: #7f1d1d; }
+    .nav-links .cv-link { color: #b3261e; font-weight: 650; }
     .menu-button { display: none; border: 1px solid var(--line); border-radius: 8px; padding: .45rem .65rem; background: transparent; color: var(--navy); font: inherit; }
 
     section { scroll-margin-top: 88px; }
@@ -140,7 +140,7 @@
     .contact h2 { margin-bottom: .7rem; color: #fff9f1; }
     .contact p { max-width: 650px; margin: 0; color: #cad5d7; }
     .contact-links { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: .65rem 1.1rem; }
-    .contact a { color: #f2c5ad; font-weight: 650; }
+    .contact a { color: #ff9f86; font-weight: 650; }
     footer { padding: 1.4rem 0; background: #1d3744; color: #9fb0b4; font-size: .78rem; }
     .footer-row { display: flex; justify-content: space-between; gap: 1rem; }
 
