@@ -1,10 +1,3 @@
-Website update audit
-Date: 2026-09-10
-
-Changes from v5 only:
-1. Added a September 2026 News item noting selection to the Purdue University Senate Student Affairs Committee as a Purdue Graduate Student Government representative, with the official Purdue committee link.
-2. Standardized website hyperlinks to the site's red accent. On the dark Contact section, a lighter red is used for readable contrast.
-3. No changes to website layout, spacing, typography, research wording, photograph, publications content/status, education, experience, or existing News items.
-4. Email remains obfuscated in HTML; no mailto link was added.
-
-2026-09-10: Added official Purdue Preliminary Examination reference link to the July 30, 2026 candidacy news item. No other site content or styling changed.
+Background updated with a subtle aviation/aerospace motif inspired by the reference image.
+Font family updated to Roboto.
+All content, layout, news, links, and email obfuscation otherwise preserved.
