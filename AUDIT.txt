@@ -1,3 +1,7 @@
 Background updated to a futuristic aviation/aerospace style inspired by the referenced storymap, while preserving all site content and layout.
 Font remains Roboto.
 All links, news, and email obfuscation preserved.
+
+Variant created for style comparison only. Core content and layout preserved.
+
+Refinement applied: reduced grid-line and aircraft-silhouette prominence by roughly 15–20% to balance futurism with academic readability.
