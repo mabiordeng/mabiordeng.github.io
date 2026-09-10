@@ -1,7 +1,7 @@
 
     :root {
-      --paper: #f7f2ea;
-      --paper-light: #fffdf9;
+      --paper: #ffffff;
+      --paper-light: #ffffff;
       --ink: #25323a;
       --muted: #647074;
       --navy: #244454;
@@ -36,7 +36,7 @@
       position: sticky;
       top: 0;
       z-index: 100;
-      background: rgba(247, 242, 234, .94);
+      background: rgba(255, 255, 255, .94);
       border-bottom: 1px solid var(--soft-line);
       backdrop-filter: blur(12px);
     }
