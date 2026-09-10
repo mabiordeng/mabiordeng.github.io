@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1000" width="1800" height="1000">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f9fcff"/>
+      <stop offset="55%" stop-color="#f2f7fb"/>
+      <stop offset="100%" stop-color="#edf3f8"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#cfe3f7" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#b9d4ef" stop-opacity="0.08"/>
+    </linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="10"/></filter>
+    <style>
+      .grid{stroke:#d8e4ef;stroke-width:1;stroke-opacity:.45}
+      .arc{fill:none;stroke:#a9c2d9;stroke-width:2.3;stroke-opacity:.34}
+      .arc2{fill:none;stroke:#7ba8d4;stroke-width:1.6;stroke-opacity:.25}
+      .dot{fill:#86a8c8;opacity:.28}
+      .plane{fill:#90a9c0;opacity:.16}
+      .plane2{fill:#6f8ca8;opacity:.12}
+      .rocket{fill:#9ab0c5;opacity:.14}
+      .sat{fill:#93a7bd;opacity:.13}
+      .pix1{fill:#68a7c8;opacity:.18}
+      .pix2{fill:#6fa37d;opacity:.16}
+      .pix3{fill:#9da86f;opacity:.14}
+      .pix4{fill:#8f87be;opacity:.15}
+    </style>
+    <g id="planeA"><path d="M0,0 L110,10 L165,0 L190,5 L165,10 L112,12 L72,28 L84,30 L80,36 L63,32 L42,31 L36,44 L30,43 L32,30 L10,26 L0,34 L-10,32 L0,22 L0,0 Z"/></g>
+    <g id="planeB"><path d="M0,0 L85,6 L130,0 L145,3 L130,8 L90,10 L55,24 L64,26 L60,31 L46,28 L32,27 L28,38 L23,37 L25,27 L8,23 L0,29 L-7,27 L0,19 L0,0 Z"/></g>
+    <g id="satellite"><rect x="-13" y="-10" width="26" height="20" rx="2"/><rect x="-48" y="-18" width="28" height="36" rx="1"/><rect x="20" y="-18" width="28" height="36" rx="1"/><path d="M0 10 L0 38" stroke="#95a2b2" stroke-width="3" stroke-linecap="round"/><circle cx="0" cy="44" r="4"/></g>
+    <g id="rocket"><path d="M42 0 C65 18 68 56 50 88 L42 104 L34 88 C16 56 19 18 42 0 Z"/><ellipse cx="42" cy="36" rx="9" ry="12" fill="#ffffff" opacity=".36"/><path d="M34 83 L16 96 L24 72 Z"/><path d="M50 83 L68 96 L60 72 Z"/><path d="M34 101 L28 118 L42 110 L56 118 L50 101 Z" fill="#7ba8d4" opacity=".18"/></g>
+  </defs>
+  <rect width="1800" height="1000" fill="url(#bg)"/>
+
+  <!-- soft glows -->
+  <circle cx="280" cy="170" r="180" fill="url(#glow)" filter="url(#blur)"/>
+  <circle cx="1460" cy="140" r="190" fill="url(#glow)" filter="url(#blur)"/>
+
+  <!-- futuristic grid -->
+  <g>
+    <path class="grid" d="M0 110 H1800"/><path class="grid" d="M0 220 H1800"/><path class="grid" d="M0 330 H1800"/><path class="grid" d="M0 440 H1800"/><path class="grid" d="M0 550 H1800"/><path class="grid" d="M0 660 H1800"/><path class="grid" d="M0 770 H1800"/><path class="grid" d="M0 880 H1800"/>
+    <path class="grid" d="M150 0 V1000"/><path class="grid" d="M330 0 V1000"/><path class="grid" d="M510 0 V1000"/><path class="grid" d="M690 0 V1000"/><path class="grid" d="M870 0 V1000"/><path class="grid" d="M1050 0 V1000"/><path class="grid" d="M1230 0 V1000"/><path class="grid" d="M1410 0 V1000"/><path class="grid" d="M1590 0 V1000"/>
+  </g>
+
+  <!-- network arcs -->
+  <path class="arc" d="M50 735 C260 510 520 360 820 380 C1060 395 1280 530 1750 250"/>
+  <path class="arc2" d="M120 805 C340 590 650 500 980 525 C1250 545 1500 465 1730 305"/>
+  <path class="arc" d="M170 205 C360 100 620 86 920 205"/>
+  <path class="arc2" d="M1010 250 C1185 165 1405 165 1665 250"/>
+  <circle class="dot" cx="820" cy="380" r="6"/>
+  <circle class="dot" cx="980" cy="525" r="5"/>
+  <circle class="dot" cx="920" cy="205" r="5"/>
+  <circle class="dot" cx="1665" cy="250" r="5"/>
+
+  <!-- data pixel stream -->
+  <g>
+    <rect class="pix1" x="102" y="182" width="12" height="12"/><rect class="pix2" x="128" y="152" width="18" height="18"/><rect class="pix3" x="170" y="205" width="15" height="15"/><rect class="pix4" x="208" y="132" width="22" height="22"/><rect class="pix1" x="248" y="176" width="20" height="20"/><rect class="pix2" x="290" y="126" width="28" height="28"/><rect class="pix1" x="335" y="202" width="14" height="14"/><rect class="pix2" x="378" y="148" width="22" height="22"/><rect class="pix3" x="426" y="232" width="18" height="18"/><rect class="pix4" x="470" y="170" width="16" height="16"/><rect class="pix1" x="508" y="126" width="23" height="23"/><rect class="pix2" x="552" y="203" width="20" height="20"/><rect class="pix3" x="592" y="144" width="16" height="16"/>
+    <rect class="pix1" x="172" y="284" width="10" height="10"/><rect class="pix2" x="202" y="315" width="14" height="14"/><rect class="pix4" x="240" y="268" width="12" height="12"/><rect class="pix1" x="270" y="338" width="15" height="15"/><rect class="pix2" x="308" y="292" width="12" height="12"/><rect class="pix3" x="350" y="365" width="16" height="16"/><rect class="pix1" x="388" y="315" width="12" height="12"/><rect class="pix4" x="422" y="388" width="10" height="10"/>
+  </g>
+
+  <!-- aerospace silhouettes -->
+  <g class="plane2" transform="translate(1080 178) rotate(-8) scale(1.1)"><use href="#planeA"/></g>
+  <g class="plane" transform="translate(1370 112) rotate(-10) scale(1.45)"><use href="#planeB"/></g>
+  <g class="plane2" transform="translate(1510 325) rotate(18) scale(.82)"><use href="#planeB"/></g>
+  <g class="plane" transform="translate(1190 380) rotate(-5) scale(1.15)"><use href="#planeA"/></g>
+  <g class="sat" transform="translate(1310 92) scale(.8)"><use href="#satellite"/></g>
+  <g class="rocket" transform="translate(1500 430) scale(.86)"><use href="#rocket"/></g>
+
+  <!-- lower planetary arc -->
+  <path d="M-150 970 C250 790 1550 790 1950 970 L1950 1000 L-150 1000 Z" fill="#cad8e3" opacity=".25"/>
+  <path d="M160 934 C350 905 570 892 818 898 C1060 903 1290 928 1490 924 C1588 922 1680 914 1760 900" fill="none" stroke="#a9b9c9" stroke-width="3" stroke-opacity=".22"/>
+</svg>
